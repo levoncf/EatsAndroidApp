@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <include layout="@layout/head_bar_two"/>
+
+
+   <ImageView
+       android:id="@+id/info_menupic"
+       android:layout_marginTop="30dp"
+       android:layout_width="250dp"
+       android:layout_height="180dp"
+        android:src="@drawable/addcc"/>
+
+    <TextView android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:id="@+id/menuname_info"
+        android:layout_width="wrap_content"
+        android:text="menu name"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="#11ffffff"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/info_headpic"
+            android:scaleType="centerCrop"
+            android:src="@drawable/addpic"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+        <TextView
+            android:id="@+id/info_headname"
+            android:layout_marginLeft="90dp"
+            android:text="ddsd"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="90dp"
+            android:text="18385353533"
+            android:textSize="20sp"
+            android:id="@+id/info_headphone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#11ffffff"
+        />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/descinfo"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tt"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"/>
+
+
+        <TextView
+            android:id="@+id/info_address"
+            android:layout_toRightOf="@id/tt"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="street ont"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/km"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/default_headbar_two"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/headbar_left_button_two"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="15dp"/>
+
+    <ImageView
+        android:id="@+id/headbar_left_imagebutton_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:scaleType="center"
+        android:visibility="gone"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/headbar_title_two"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/title_size"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/headbar_right_button_two"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"/>
+
+    <ImageView
+        android:id="@+id/headbar_right_imagebutton_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:scaleType="center"
+        android:visibility="gone"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:clickable="true"/>
+
+</RelativeLayout>

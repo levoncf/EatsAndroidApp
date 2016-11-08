@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <include layout="@layout/head_bar_two"/>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/chefimageinfo"
+        android:layout_width="250dp"
+        android:layout_height="180dp" />
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/chefmae"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="Chef Name:"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+          android:layout_toRightOf="@id/chefmae"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/chefnameinfo"
+            android:text=""
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Chefff"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="Chef Phone:"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/Chefff"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/chefphoneinfo"
+            android:text=""
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Chefddff"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="Resturant:"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/Chefddff"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/chefaddressinfo"
+            android:text=""
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

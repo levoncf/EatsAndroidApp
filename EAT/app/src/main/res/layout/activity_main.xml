@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ff"
+    tools:context=".MainActivity">
+
+    <ImageView
+    android:layout_width="250dp"
+    android:src="@drawable/food"
+    android:layout_height="250dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:text="Eat"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="18dp"
+        android:background="@color/yellow"
+        android:layout_width="150dp"
+        android:text="Sign in"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/Rg"
+        android:layout_marginTop="18dp"
+        android:background="@color/yellow"
+        android:layout_width="150dp"
+        android:text="Register"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

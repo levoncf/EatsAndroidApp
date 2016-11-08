@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <include layout="@layout/head_bar_two"/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:background="@color/bg_gray"
+        android:id="@+id/addmenupic"
+        android:src="@drawable/people"
+        android:layout_width="150dp"
+        android:layout_height="180dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:text="Menu name"
+            android:layout_height="50dp" />
+        <EditText
+            android:id="@+id/foodname"
+            android:layout_width="200dp"
+
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:text="Chef name"
+            android:layout_height="50dp" />
+        <EditText
+            android:layout_width="200dp"
+            android:id="@+id/chefname"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="100dp"
+        android:text="Resturant"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:id="@+id/resturantname"
+        android:layout_height="50dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:text="Description"
+            android:layout_height="50dp" />
+        <EditText
+            android:layout_width="200dp"
+            android:id="@+id/description"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</LinearLayout>
