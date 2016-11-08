@@ -13,7 +13,7 @@
         android:layout_marginTop="150dp"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="Pull down  to refresh"/>
+        android:text="Swipe down to refresh"/>
     <com.handmark.pulltorefresh.library.PullToRefreshListView
     android:id="@+id/PullToRefreshListView"
     android:layout_width="match_parent"

@@ -19,4 +19,4 @@
     android:duration="@android:integer/config_longAnimTime"
     android:fromYDelta="0"
     android:toYDelta="100%p" />
-<!-- From: file:/Users/KS/Downloads/EAT-2/pullToRefreshLibraryy/src/main/res/anim/slide_out_to_bottom.xml --><!-- From: file:/Users/KS/Downloads/EAT-2/pullToRefreshLibraryy/build/intermediates/bundles/debug/res/anim/slide_out_to_bottom.xml -->
+<!-- From: file:/Users/KS/Desktop/EatsAndroidApp/EAT/pullToRefreshLibraryy/src/main/res/anim/slide_out_to_bottom.xml --><!-- From: file:/Users/KS/Desktop/EatsAndroidApp/EAT/pullToRefreshLibraryy/build/intermediates/bundles/debug/res/anim/slide_out_to_bottom.xml -->

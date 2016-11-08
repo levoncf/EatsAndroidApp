@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="15dp"
-        android:hint="user name"
+        android:hint="User name"
         android:textSize="15sp"
         />
     <View
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="15dp"
         android:password="true"
-        android:hint="password"
+        android:hint="Password"
         android:textSize="15sp"
         />
     <View
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="15dp"
         android:password="true"
-        android:hint="input password again"
+        android:hint="Confirm Password"
         android:textSize="15sp"
         />
     <Button
@@ -59,7 +59,7 @@
         android:layout_marginTop="18dp"
         android:background="@color/yellow"
         android:layout_width="200dp"
-        android:text="Regist"
+        android:text="Register"
         android:textSize="18sp"
         android:textColor="@color/white"
         android:layout_height="wrap_content"
